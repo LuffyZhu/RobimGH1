@@ -1,0 +1,13 @@
+<UpdateInfo>
+  <Version>1.2020.09.10</Version>
+  <UpdateContent>
+A.新增KUKA-KR20模型(20200908)
+B.CheckCollision使用十等份算法(20200908)
+C.UR Code更新(20200909)
+  </UpdateContent>
+  <DllUri>http://106.14.212.171/Robim/20200909/Robim.dll</DllUri>
+  <GhaUri>http://106.14.212.171/Robim/20200909/Robim.gha</GhaUri>
+  <Time></Time>
+  <Size>8.240</Size>
+</UpdateInfo>
+

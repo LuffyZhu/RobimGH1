@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Robots": {
+      "commandName": "Executable",
+      "executablePath": "D:\\Rhino 6\\System\\Rhino.exe"
+    }
+  }
+}

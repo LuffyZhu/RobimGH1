@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "RobimGH": {
+      "commandName": "Executable",
+      "executablePath": "D:\\Program Files\\Rhino 7\\System\\Rhino.exe"
+    }
+  }
+}

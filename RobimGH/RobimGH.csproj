@@ -1,0 +1,236 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net48</TargetFramework>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<RootNamespace>Robim</RootNamespace>
+		<LangVersion>8.0</LangVersion>
+		<Platforms>AnyCPU;x64</Platforms>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<OutputPath></OutputPath>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<PackageId>RobimGH</PackageId>
+		<Authors>roboticplus</Authors>
+		<Company></Company>
+		<Product>roboticplus</Product>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+		<AssemblyName>RobimGH</AssemblyName>
+		<AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+		<Optimize>false</Optimize>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+	  <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+	  <Optimize>false</Optimize>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="AnalysisViewModel - 复制\**" />
+	  <Compile Remove="Grasshopper\**" />
+	  <EmbeddedResource Remove="AnalysisViewModel - 复制\**" />
+	  <EmbeddedResource Remove="Grasshopper\**" />
+	  <None Remove="AnalysisViewModel - 复制\**" />
+	  <None Remove="Grasshopper\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Remove="CVision.cs" />
+		<Compile Remove="CVision3d.cs" />
+		<Compile Remove="Form1.cs" />
+		<Compile Remove="Form1.Designer.cs" />
+		<Compile Remove="winforms.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Remove="Resources\icons\iconExternalaxis.png" />
+		<None Remove="Resources\URTransform.exe" />
+		<None Remove="URTransform.py" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="AnalysisViewModel\.vs\AnalysisViewModel\v17\DocumentLayout.json" />
+	  <Content Include="AnalysisViewModel\.vs\ProjectSettings.json" />
+	  <Content Include="AnalysisViewModel\.vs\VSWorkspaceState.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\PInvokeCSarp\PInvokeCSharp.csproj" />
+		<ProjectReference Include="..\RobimRobots\RobimRobots.csproj" />
+		<ProjectReference Include="..\RobimUI\RobimUI.csproj" />
+		<ProjectReference Include="..\RobimWPF\RobimWPF.csproj" />
+		<ProjectReference Include="..\Robim\Robim.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="ConnectToDB">
+		  <HintPath>..\ConnectToDB.dll</HintPath>
+		</Reference>
+		<Reference Include="Eto">
+		  <HintPath>..\..\..\..\..\..\Program Files\Rhino 7\System\Eto.dll</HintPath>
+		</Reference>
+		<Reference Include="FoxLearn.License">
+			<HintPath>..\FoxLearn.License.dll</HintPath>
+		</Reference>
+		<Reference Include="Grasshopper">
+		  <HintPath>..\..\..\..\..\Program Files\Rhino 6\Plug-ins\Grasshopper\Grasshopper.dll</HintPath>
+		</Reference>
+		<Reference Include="MySql.Data">
+			<HintPath>..\MySql.Data.dll</HintPath>
+		</Reference>
+		<Reference Include="PresentationCore" />
+		<Reference Include="PresentationFramework" />
+		<Reference Include="Rhino.UI">
+		  <HintPath>..\..\..\..\..\..\Program Files\Rhino 7\System\Rhino.UI.dll</HintPath>
+		</Reference>
+		<Reference Include="RhinoCommon">
+		  <HintPath>..\..\..\..\..\Program Files\Rhino 6\System\RhinoCommon.dll</HintPath>
+		</Reference>
+		<Reference Include="SimpleTcp">
+		  <HintPath>..\packages\SuperSimpleTcp.2.4.1.2\lib\net461\SimpleTcp.dll</HintPath>
+		</Reference>
+		<Reference Include="StringSupport">
+		  <HintPath>..\StringSupport.dll</HintPath>
+		</Reference>
+		<Reference Include="System.DirectoryServices" />
+		<Reference Include="System.ServiceProcess" />
+		<Reference Include="System.Windows.Forms" />
+		<Reference Include="System.Windows.Forms.DataVisualization" />
+		<Reference Include="System.Xaml" />
+		<Reference Include="UIAutomationProvider" />
+		<Reference Include="WindowsBase" />
+		<Reference Include="WindowsFormsIntegration" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="Resources\icons\iconAngles.png" />
+		<EmbeddedResource Include="Resources\icons\iconCheckCollisions.png" />
+		<EmbeddedResource Include="Resources\icons\iconCheckProgram.png" />
+		<EmbeddedResource Include="Resources\icons\iconCollision.png" />
+		<EmbeddedResource Include="Resources\icons\iconCommand.png" />
+		<EmbeddedResource Include="Resources\icons\iconCommandParam.png" />
+		<EmbeddedResource Include="Resources\icons\iconCreateProgram.png" />
+		<EmbeddedResource Include="Resources\icons\iconCreateTarget.png" />
+		<EmbeddedResource Include="Resources\icons\iconCustomCode.png" />
+		<EmbeddedResource Include="Resources\icons\iconCustomCommand.png" />
+		<EmbeddedResource Include="Resources\icons\iconDeconstructProgramTarget.png" />
+		<EmbeddedResource Include="Resources\icons\iconDeconstructTarget.png" />
+		<EmbeddedResource Include="Resources\icons\iconExternalaxis.png" />
+		<EmbeddedResource Include="Resources\icons\iconFrame.png" />
+		<EmbeddedResource Include="Resources\icons\iconFrameParam.png" />
+		<EmbeddedResource Include="Resources\icons\iconGetPlane.png" />
+		<EmbeddedResource Include="Resources\icons\iconGroupCommand.png" />
+		<EmbeddedResource Include="Resources\icons\iconIO.png" />
+		<EmbeddedResource Include="Resources\icons\iconKinematics.png" />
+		<EmbeddedResource Include="Resources\icons\iconLine To Aligned Plane.png" />
+		<EmbeddedResource Include="Resources\icons\iconMessage.png" />
+		<EmbeddedResource Include="Resources\icons\iconOutbox.png" />
+		<EmbeddedResource Include="Resources\icons\iconParamProgram.png" />
+		<EmbeddedResource Include="Resources\icons\iconPlay.png" />
+		<EmbeddedResource Include="Resources\icons\iconProgramParam.png" />
+		<EmbeddedResource Include="Resources\icons\iconPulseDO.png" />
+		<EmbeddedResource Include="Resources\icons\iconRobot.png" />
+		<EmbeddedResource Include="Resources\icons\iconRobotList.png" />
+		<EmbeddedResource Include="Resources\icons\iconRobotParam.png" />
+		<EmbeddedResource Include="Resources\icons\iconSave.png" />
+		<EmbeddedResource Include="Resources\icons\iconSetAO.png" />
+		<EmbeddedResource Include="Resources\icons\iconSetDO.png" />
+		<EmbeddedResource Include="Resources\icons\iconSimpleTrail.png" />
+		<EmbeddedResource Include="Resources\icons\iconSimulation.png" />
+		<EmbeddedResource Include="Resources\icons\iconSortPaths.png" />
+		<EmbeddedResource Include="Resources\icons\iconSpeed.png" />
+		<EmbeddedResource Include="Resources\icons\iconSpeedParam.png" />
+		<EmbeddedResource Include="Resources\icons\iconStopCommand.png" />
+		<EmbeddedResource Include="Resources\icons\iconTargetParam.png" />
+		<EmbeddedResource Include="Resources\icons\iconLoadTool.png" />
+		<EmbeddedResource Include="Resources\icons\iconToolParam.png" />
+		<EmbeddedResource Include="Resources\icons\iconToPlane.png" />
+		<EmbeddedResource Include="Resources\icons\iconUpload.png" />
+		<EmbeddedResource Include="Resources\icons\iconURRemote.png" />
+		<EmbeddedResource Include="Resources\icons\iconWait.png" />
+		<EmbeddedResource Include="Resources\icons\iconWaitDI.png" />
+		<EmbeddedResource Include="Resources\icons\iconZoneParam.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="AnalysisViewModel\.vs\AnalysisViewModel\FileContentIndex\01f4e360-1565-4cb7-9e75-fada0017a883.vsidx" />
+	  <None Include="AnalysisViewModel\.vs\slnx.sqlite" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Emgu.CV" Version="4.5.1.4349" />
+	  <PackageReference Include="Emgu.CV.Bitmap" Version="4.5.1.4349" />
+	  <PackageReference Include="Emgu.CV.runtime.windows" Version="4.5.1.4349" />
+	  <PackageReference Include="Emgu.CV.UI" Version="4.5.1.4349" />
+	  <PackageReference Include="Grasshopper" Version="6.28.20199.17141" />
+	  <PackageReference Include="NetMQ" Version="4.0.1.12" />
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+	  <PackageReference Include="ReactiveUI.WinForms" Version="17.1.50" />
+	  <PackageReference Include="Renci.SshNet.Async" Version="1.4.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Resource Include="Resources\URTransform.exe" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Update="Analysis.cs" />
+		<Compile Update="Analysis.Designer.cs">
+		  <DependentUpon>Analysis.cs</DependentUpon>
+		</Compile>
+		<Compile Update="InverseKinematicsComputeForm.cs" />
+		<Compile Update="Properties\Resources.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Resources.resx</DependentUpon>
+		</Compile>
+		<Compile Update="Properties\Settings.Designer.cs">
+			<DesignTimeSharedInput>True</DesignTimeSharedInput>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Settings.settings</DependentUpon>
+		</Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Update="ExternalSystemForm.resx">
+			<Generator></Generator>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Properties\Resources.resx">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput>Resources.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="Properties\Settings.settings">
+			<Generator>SettingsSingleFileGenerator</Generator>
+			<LastGenOutput>Settings.Designer.cs</LastGenOutput>
+		</None>
+	</ItemGroup>
+
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+		<Exec Command="Copy &quot;$(TargetPath)&quot; &quot;$(TargetDir)Robim.gha&quot;&#xD;&#xA;Erase &quot;$(TargetPath)&quot;" />
+	</Target>
+
+	<Target Name="PreventCopyLocal" AfterTargets="ResolveReferences">
+		<ItemGroup>
+			<ReferenceCopyLocalPaths Remove="@(ReferenceCopyLocalPaths)" Condition="'%(ReferenceCopyLocalPaths.NuGetPackageId)' == 'Grasshopper'" />
+			<ReferenceCopyLocalPaths Remove="@(ReferenceCopyLocalPaths)" Condition="'%(ReferenceCopyLocalPaths.NuGetPackageId)' == 'RhinoCommon'" />
+		</ItemGroup>
+	</Target>
+	<PropertyGroup>
+		<!--<Build>$([System.DateTime]::op_Subtraction($([System.DateTime]::get_Now().get_Date()),$([System.DateTime]::new(2000,1,1))).get_TotalDays())</Build>-->
+		<!--<Revision>$([MSBuild]::Divide($([System.DateTime]::get_Now().get_TimeOfDay().get_TotalSeconds()), 2).ToString('F0'))</Revision>-->
+		<CurrentDate>$([System.DateTime]::Now.ToString(yyyy.MM.dd))</CurrentDate>
+		<Version>1.$(CurrentDate)</Version>
+		<ApplicationIcon />
+		<OutputType>Library</OutputType>
+		<StartupObject />
+		<BaseOutputPath></BaseOutputPath>
+	</PropertyGroup>
+</Project>

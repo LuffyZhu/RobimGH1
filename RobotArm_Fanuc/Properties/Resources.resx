@@ -1,0 +1,919 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="FANUC_ARCMate120iD_M_20iD_35_v01_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_ARCMate120iD_M_20iD_35_v01_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_ARCMate120iD_M_20iD_35_v01_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_ARCMate120iD_M_20iD_35_v01_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_ARCMate120iD_M_20iD_35_v01_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_ARCMate120iD_M_20iD_35_v01_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_ARCMate120iD_M_20iD_35_v01_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_ARCMate120iD_M_20iD_35_v01_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_ARCMate120iD_M_20iD_35_v01_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_ARCMate120iD_M_20iD_35_v01_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_ARCMate120iD_M_20iD_35_v01_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_ARCMate120iD_M_20iD_35_v01_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_ARCMate120iD_M_20iD_35_v01_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_ARCMate120iD_M_20iD_35_v01_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_ARCMate120iD_M_20iD_35_v01_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_ARCMate120iD_M_20iD_35_v01_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_ARCMate120iD_M_20iD_35_v01_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_ARCMate120iD_M_20iD_35_v01_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_ARCMate120iD_M_20iD_35_v01_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_ARCMate120iD_M_20iD_35_v01_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_ARCMate120iD_M_20iD_35_v01_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_ARCMate120iD_M_20iD_35_v01_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_ARCMate120iD_M_20iD_35_v01_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_ARCMate120iD_M_20iD_35_v01_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_ARCMate120iD_M_20iD_35_v01_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_ARCMate120iD_M_20iD_35_v01_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_ARCMate120iD_M_20iD_35_v01_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_ARCMate120iD_M_20iD_35_v01_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_ARCMate120iD_prototype_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_ARCMate120iD_prototype_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_ARCMate120iD_prototype_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_ARCMate120iD_prototype_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_ARCMate120iD_prototype_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_ARCMate120iD_prototype_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_ARCMate120iD_prototype_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_ARCMate120iD_prototype_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_ARCMate120iD_prototype_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_ARCMate120iD_prototype_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_ARCMate120iD_prototype_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_ARCMate120iD_prototype_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_ARCMate120iD_prototype_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_ARCMate120iD_prototype_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_ARCMate120iD_prototype_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_ARCMate120iD_prototype_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_ARCMate120iD_prototype_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_ARCMate120iD_prototype_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_ARCMate120iD_prototype_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_ARCMate120iD_prototype_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_ARCMate120iD_prototype_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_ARCMate120iD_prototype_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_ARCMate120iD_prototype_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_ARCMate120iD_prototype_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_ARCMate120iD_prototype_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_ARCMate120iD_prototype_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_ARCMate120iD_prototype_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_ARCMate120iD_prototype_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iA_8L_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iA_8L_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iA_8L_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iA_8L_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iA_8L_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iA_8L_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iA_8L_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iA_8L_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iA_8L_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iA_8L_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iA_8L_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iA_8L_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iA_8L_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iA_8L_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iA_8L_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iA_8L_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iA_8L_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iA_8L_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iA_8L_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iA_8L_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iA_8L_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iA_8L_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iA_8L_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iA_8L_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iA_8L_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iA_8L_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iA_8L_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iA_8L_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD10L_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD10L_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD10L_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD10L_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD10L_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD10L_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD10L_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD10L_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD10L_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD10L_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD10L_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD10L_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD10L_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD10L_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD10L_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD10L_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD10L_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD10L_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD10L_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD10L_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD10L_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD10L_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD10L_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD10L_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD10L_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD10L_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD10L_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD10L_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD12_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD12_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD12_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD12_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD12_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD12_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD12_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD12_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD12_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD12_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD12_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD12_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD12_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD12_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD12_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD12_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD12_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD12_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD12_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD12_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD12_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD12_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD12_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD12_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD12_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD12_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD12_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD12_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD16S_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD16S_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD16S_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD16S_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD16S_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD16S_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD16S_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD16S_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD16S_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD16S_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD16S_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD16S_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD16S_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD16S_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD16S_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD16S_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD16S_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD16S_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD16S_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD16S_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD16S_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD16S_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD16S_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD16S_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD16S_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD16S_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD16S_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD16S_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD8L_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD8L_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD8L_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD8L_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD8L_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD8L_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD8L_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD8L_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD8L_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD8L_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD8L_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD8L_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD8L_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD8L_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD8L_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD8L_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD8L_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD8L_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD8L_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD8L_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD8L_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD8L_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD8L_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD8L_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD8L_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD8L_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_10iD8L_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_10iD8L_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20ia_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20ia_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_20ia_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20ia_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_20ia_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20ia_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_20ia_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20ia_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_20ia_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20ia_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_20ia_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20ia_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_20ia_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20ia_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_20ia_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20ia_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_20ia_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20ia_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_20ia_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20ia_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_20ia_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20ia_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_20ia_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20ia_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_20ia_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20ia_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_20ia_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20ia_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_20iB25_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iB25_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iB25_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iB25_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iB25_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iB25_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iB25_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iB25_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iB25_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iB25_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iB25_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iB25_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iB25_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iB25_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iB25_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iB25_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iB25_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iB25_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iB25_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iB25_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iB25_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iB25_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iB25_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iB25_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iB25_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iB25_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iB25_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iB25_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iB35S_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iB35S_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iB35S_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iB35S_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iB35S_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iB35S_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iB35S_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iB35S_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iB35S_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iB35S_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iB35S_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iB35S_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iB35S_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iB35S_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iB35S_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iB35S_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iB35S_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iB35S_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iB35S_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iB35S_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iB35S_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iB35S_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iB35S_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iB35S_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iB35S_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iB35S_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iB35S_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iB35S_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD12L_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD12L_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD12L_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD12L_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD12L_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD12L_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD12L_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD12L_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD12L_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD12L_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD12L_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD12L_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD12L_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD12L_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD12L_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD12L_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD12L_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD12L_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD12L_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD12L_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD12L_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD12L_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD12L_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD12L_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD12L_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD12L_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD12L_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD12L_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD25_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD25_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD25_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD25_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD25_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD25_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD25_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD25_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD25_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD25_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD25_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD25_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD25_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD25_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD25_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD25_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD25_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD25_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD25_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD25_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD25_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD25_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD25_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD25_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD25_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD25_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD25_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD25_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD35_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD35_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD35_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD35_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD35_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD35_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD35_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD35_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD35_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD35_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD35_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD35_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD35_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD35_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD35_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD35_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD35_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD35_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD35_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD35_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD35_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD35_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD35_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD35_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD35_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD35_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_20iD35_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_20iD35_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_M_710ic20l_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_710ic20l_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_710ic20l_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_710ic20l_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_710ic20l_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_710ic20l_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_710ic20l_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_710ic20l_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_710ic20l_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_710ic20l_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_710ic20l_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_710ic20l_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_710ic20l_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_710ic20l_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_710ic20l_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_710ic20l_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_710ic20l_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_710ic20l_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_710ic20l_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_710ic20l_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_710ic20l_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_710ic20l_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_710ic20l_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_710ic20l_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_710ic20l_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_710ic20l_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_710ic20l_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_710ic20l_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_710ic50_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_710ic50_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_710ic50_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_710ic50_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_710ic50_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_710ic50_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_710ic50_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_710ic50_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_710ic50_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_710ic50_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_710ic50_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_710ic50_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_710ic50_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_710ic50_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_710ic50_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_710ic50_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_710ic50_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_710ic50_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_710ic50_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_710ic50_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_710ic50_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_710ic50_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_710ic50_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_710ic50_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_710ic50_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_710ic50_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_M_710ic50_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_M_710ic50_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic125L_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic125L_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic125L_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic125L_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic125L_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic125L_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic125L_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic125L_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic125L_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic125L_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic125L_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic125L_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic125L_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic125L_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic125L_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic125L_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic125L_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic125L_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic125L_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic125L_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic125L_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic125L_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic125L_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic125L_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic125L_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic125L_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic125L_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic125L_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic210F_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic210F_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic210F_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic210F_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic210F_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic210F_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic210F_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic210F_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic210F_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic210F_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic210F_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic210F_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic210F_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic210F_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic210F_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic210F_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic210F_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic210F_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic210F_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic210F_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic210F_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic210F_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic210F_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic210F_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic210F_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic210F_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic210F_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic210F_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic270f_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic270f_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic270f_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic270f_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic270f_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic270f_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic270f_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic270f_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic270f_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic270f_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic270f_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic270f_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic270f_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic270f_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic270f_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic270f_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic270f_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic270f_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic270f_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic270f_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic270f_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic270f_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic270f_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic270f_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic270f_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic270f_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000ic270f_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000ic270f_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="FANUC_R_2000iC_165F_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000iC_165F_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_R_2000iC_165F_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000iC_165F_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_R_2000iC_165F_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000iC_165F_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_R_2000iC_165F_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000iC_165F_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_R_2000iC_165F_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000iC_165F_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_R_2000iC_165F_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000iC_165F_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_R_2000iC_165F_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000iC_165F_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_R_2000iC_165F_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000iC_165F_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_R_2000iC_165F_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000iC_165F_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_R_2000iC_165F_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000iC_165F_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_R_2000iC_165F_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000iC_165F_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_R_2000iC_165F_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000iC_165F_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_R_2000iC_165F_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000iC_165F_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FANUC_R_2000iC_165F_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FANUC_R_2000iC_165F_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+</root>

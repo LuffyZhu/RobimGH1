@@ -1,0 +1,113 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <Authors>roboticplus</Authors>
+    <Company>roboticplus</Company>
+    <Product>roboticplus</Product>
+    <PackageId>Robim</PackageId>
+    <Platforms>AnyCPU;x64</Platforms>
+    <BaseIntermediateOutputPath />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath></OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutputPath />
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutputPath>bin\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="LoadModel.cs" />
+    <Compile Remove="LoadModels.cs" />
+    <Compile Remove="ModelProperties.cs" />
+    <Compile Remove="RemoteAbb.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Alea" Version="3.0.4" />
+    <PackageReference Include="Costura.Fody" Version="4.0.0" />
+    <PackageReference Include="Grasshopper" Version="6.28.20199.17141" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RobimRobots\RobimRobots.csproj" />
+    <ProjectReference Include="..\RobotArm_ABB\RobotArm_ABB.csproj" />
+    <ProjectReference Include="..\RobotArm_Aubo\RobotArm_Aubo.csproj" />
+    <ProjectReference Include="..\RobotArm_Cobot\RobotArm_Cobot.csproj" />
+    <ProjectReference Include="..\RobotArm_Estun\RobotArm_Estun.csproj" />
+    <ProjectReference Include="..\RobotArm_Fanuc\RobotArm_Fanuc.csproj" />
+    <ProjectReference Include="..\RobotArm_Googol\RobotArm_Googol.csproj" />
+    <ProjectReference Include="..\RobotArm_KUKA\RobotArm_KUKA.csproj" />
+    <ProjectReference Include="..\RobotArm_Staubli\RobotArm_Staubli.csproj" />
+    <ProjectReference Include="..\RobotArm_UR\RobotArm_UR.csproj" />
+    <ProjectReference Include="..\RobotArm_Yaskawa\RobotArm_Yaskawa.csproj" />
+    <ProjectReference Include="..\RobotPlatform\RobotPlatform.csproj" />
+    <ProjectReference Include="..\RobotTool\RobotTool.csproj" />
+    <ProjectReference Include="..\RobotTrack\RobotTrack.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ConnectToDB">
+      <HintPath>..\ConnectToDB.dll</HintPath>
+    </Reference>
+    <Reference Include="Eto">
+      <HintPath>..\packages\RhinoCommon.6.28.20199.17141\lib\net45\Eto.dll</HintPath>
+    </Reference>
+    <Reference Include="FoxLearn.License">
+      <HintPath>..\FoxLearn.License.dll</HintPath>
+    </Reference>
+    <Reference Include="Grasshopper">
+      <HintPath>..\..\..\..\..\Program Files\Rhino 6\Plug-ins\Grasshopper\Grasshopper.dll</HintPath>
+    </Reference>
+    <Reference Include="IronPython">
+      <HintPath>..\IronPython.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Scripting">
+      <HintPath>..\Microsoft.Scripting.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Rhino.UI">
+      <HintPath>..\..\..\..\..\..\Program Files\Rhino 6\System\Rhino.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <Target Name="PreventCopyLocal" AfterTargets="ResolveReferences">
+    <ItemGroup>
+      <ReferenceCopyLocalPaths Remove="@(ReferenceCopyLocalPaths)" Condition="'%(ReferenceCopyLocalPaths.NuGetPackageId)' == 'RhinoCommon'" />
+    </ItemGroup>
+  </Target>
+
+</Project>

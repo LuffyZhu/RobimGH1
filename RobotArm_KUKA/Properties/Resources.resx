@@ -1,0 +1,877 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="KUKA_KR10_R1100_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR10_R1100_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR10_R1100_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR10_R1100_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR10_R1100_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR10_R1100_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR10_R1100_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR10_R1100_2_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR10_R1100_2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR10_R1100_2_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR10_R1100_2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR10_R1100_2_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR10_R1100_2_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR10_R1100_2_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR10_R1100_2_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR10_R1100_2_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR10_R1100_2_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR10_R1100_2_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR10_R1100_2_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR10_R1100_2_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR10_R1100_2_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR10_R1100_2_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR10_R1100_2_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR10_R1100_2_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR10_R1100_2_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR10_R1100_2_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR10_R1100_2_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR10_R1100_2_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR10_R1100_2_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR10_R1100_2_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR10_R1100_2_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR10_R1100_2_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR10_R1100_2_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR10_R1100_2_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR10_R1100_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR10_R1100_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR10_R1100_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR10_R1100_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR10_R1100_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR10_R1100_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR10_R1100_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR10_R1100_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR10_R1100_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR10_R1100_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR10_R1100_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR10_R1100_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR10_R1100_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR10_R1100_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR10_R1100_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR10_R1100_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR10_R1100_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR10_R1100_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR10_R1100_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR10_R1100_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR10_R1100_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR10_R1100_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR120_2700_Extra_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR120_2700_Extra_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR120_2700_Extra_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR120_2700_Extra_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR120_2700_Extra_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR120_2700_Extra_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR120_2700_Extra_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR120_2700_Extra_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR120_2700_Extra_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR120_2700_Extra_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR120_2700_Extra_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR120_2700_Extra_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR120_2700_Extra_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR120_2700_Extra_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR120_2700_Extra_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR120_2700_Extra_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR120_2700_Extra_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR120_2700_Extra_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR120_2700_Extra_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR120_2700_Extra_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR120_2700_Extra_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR120_2700_Extra_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR120_2700_Extra_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR120_2700_Extra_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR120_2700_Extra_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR120_2700_Extra_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR120_2700_Extra_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR120_2700_Extra_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR16_2C_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR16_2C_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR16_2C_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR16_2C_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR16_2C_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR16_2C_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR16_2C_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR16_2C_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR16_2C_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR16_2C_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR16_2C_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR16_2C_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR16_2C_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR16_2C_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR16_2C_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR16_2C_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR16_2C_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR16_2C_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR16_2C_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR16_2C_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR16_2C_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR16_2C_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR16_2C_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR16_2C_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR16_2C_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR16_2C_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR16_2C_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR16_2C_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR180_R2500_Extra_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR180_R2500_Extra_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR180_R2500_Extra_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR180_R2500_Extra_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR180_R2500_Extra_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR180_R2500_Extra_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR180_R2500_Extra_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR180_R2500_Extra_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR180_R2500_Extra_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR180_R2500_Extra_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR180_R2500_Extra_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR180_R2500_Extra_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR180_R2500_Extra_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR180_R2500_Extra_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR180_R2500_Extra_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR180_R2500_Extra_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR180_R2500_Extra_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR180_R2500_Extra_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR180_R2500_Extra_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR180_R2500_Extra_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR180_R2500_Extra_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR180_R2500_Extra_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR180_R2500_Extra_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR180_R2500_Extra_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR180_R2500_Extra_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR180_R2500_Extra_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR180_R2500_Extra_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR180_R2500_Extra_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR20_R1810_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR20_ R1810_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR20_R1810_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR20_ R1810_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR20_R1810_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR20_R1810_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR20_R1810_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR20_R1810_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR20_R1810_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR20_ R1810_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR20_R1810_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR20_ R1810_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR20_R1810_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR20_R1810_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR20_R1810_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR20_R1810_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR20_R1810_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR20_R1810_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR20_R1810_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR20_R1810_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR20_R1810_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR20_R1810_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR20_R1810_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR20_R1810_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR20_R1810_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR20_R1810_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR20_R1810_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR20_R1810_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR210_R2700_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR210_R2700_2_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR210_R2700_2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR210_R2700_2_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR210_R2700_2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR210_R2700_2_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR210_R2700_2_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR210_R2700_2_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR210_R2700_2_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR210_R2700_2_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR210_R2700_2_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR210_R2700_2_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR210_R2700_2_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR210_R2700_2_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR210_R2700_2_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR210_R2700_2_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR210_R2700_2_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR210_R2700_2_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR210_R2700_2_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR210_R2700_2_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR210_R2700_2_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR210_R2700_2_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR210_R2700_2_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR210_R2700_2_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR210_R2700_2_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR210_R2700_2_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR210_R2700_2_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR210_R2700_2_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR210_R2700_Extra_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR210_R2700_ultra_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR210_R2700_Extra_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR210_R2700_ultra_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR210_R2700_Extra_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR210_R2700_ultra_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR210_R2700_Extra_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR210_R2700_ultra_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR210_R2700_Extra_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR210_R2700_ultra_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR210_R2700_Extra_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR210_R2700_ultra_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR210_R2700_Extra_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR210_R2700_ultra_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR210_R2700_Extra_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR210_R2700_ultra_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR210_R2700_Extra_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR210_R2700_ultra_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR210_R2700_Extra_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR210_R2700_ultra_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR210_R2700_Extra_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR210_R2700_ultra_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR210_R2700_Extra_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR210_R2700_ultra_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR210_R2700_Extra_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR210_R2700_ultra_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR210_R2700_Extra_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR210_R2700_ultra_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR22_R1610_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR22_R1610_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR22_R1610_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR22_R1610_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR22_R1610_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR22_R1610_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR22_R1610_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR22_R1610_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR22_R1610_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR22_R1610_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR22_R1610_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR22_R1610_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR22_R1610_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR22_R1610_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR22_R1610_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR22_R1610_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR22_R1610_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR22_R1610_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR22_R1610_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR22_R1610_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR22_R1610_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR22_R1610_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR22_R1610_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR22_R1610_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR22_R1610_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR22_R1610_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR22_R1610_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR22_R1610_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR300_R2700_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR300_R2700_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR300_R2700_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR300_R2700_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR300_R2700_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR300_R2700_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR300_R2700_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR300_R2700_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR300_R2700_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR300_R2700_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR300_R2700_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR300_R2700_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR300_R2700_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR300_R2700_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR300_R2700_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR300_R2700_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR300_R2700_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR300_R2700_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR300_R2700_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR300_R2700_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR300_R2700_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR300_R2700_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR300_R2700_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR300_R2700_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR300_R2700_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR300_R2700_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR300_R2700_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR300_R2700_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR360_R2830_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR360_R2830_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR360_R2830_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR360_R2830_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR360_R2830_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR360_R2830_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR360_R2830_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR360_R2830_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR360_R2830_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR360_R2830_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR360_R2830_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR360_R2830_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR360_R2830_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR360_R2830_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR360_R2830_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR360_R2830_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR360_R2830_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR360_R2830_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR360_R2830_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR360_R2830_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR360_R2830_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR360_R2830_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR360_R2830_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR360_R2830_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR360_R2830_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR360_R2830_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR360_R2830_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR360_R2830_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR500_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR500_2_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR500_2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR500_2_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR500_2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR500_2_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR500_2_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR500_2_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR500_2_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR500_2_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR500_2_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR500_2_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR500_2_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR500_2_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR500_2_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR500_2_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR500_2_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR500_2_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR500_2_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR500_2_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR500_2_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR500_2_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR500_2_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR500_2_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR500_2_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR500_2_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR500_2_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR500_2_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR60_HA_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR60_HA_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR60_HA_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR60_HA_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR60_HA_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR60_HA_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR60_HA_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR60_HA_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR60_HA_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR60_HA_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR60_HA_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR60_HA_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR60_HA_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR60_HA_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR60_HA_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR60_HA_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR60_HA_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR60_HA_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR60_HA_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR60_HA_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR60_HA_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR60_HA_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR60_HA_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR60_HA_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR60_HA_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR60_HA_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR60_HA_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR60_HA_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR6_R900_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR6_R900_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR6_R900_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR6_R900_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR6_R900_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR6_R900_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR6_R900_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR6_R900_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR6_R900_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR6_R900_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR6_R900_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR6_R900_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR6_R900_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR6_R900_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR6_R900_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR6_R900_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR6_R900_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR6_R900_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR6_R900_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR6_R900_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR6_R900_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR6_R900_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR6_R900_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR6_R900_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR6_R900_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR6_R900_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR6_R900_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR6_R900_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR70_R2100_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR70_R2100_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR70_R2100_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR70_R2100_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR70_R2100_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR70_R2100_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR70_R2100_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR70_R2100_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR70_R2100_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR70_R2100_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR70_R2100_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR70_R2100_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR70_R2100_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR70_R2100_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR70_R2100_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR70_R2100_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR70_R2100_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR70_R2100_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR70_R2100_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR70_R2100_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR70_R2100_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR70_R2100_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR70_R2100_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR70_R2100_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR70_R2100_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR70_R2100_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR70_R2100_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR70_R2100_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR8_R2100_2_arc_HW_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR8_R2100_2_arc_HW_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR8_R2100_2_arc_HW_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR8_R2100_2_arc_HW_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR8_R2100_2_arc_HW_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR8_R2100_2_arc_HW_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR8_R2100_2_arc_HW_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR8_R2100_2_arc_HW_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR8_R2100_2_arc_HW_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR8_R2100_2_arc_HW_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR8_R2100_2_arc_HW_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR8_R2100_2_arc_HW_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR8_R2100_2_arc_HW_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR8_R2100_2_arc_HW_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR8_R2100_2_arc_HW_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR8_R2100_2_arc_HW_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR8_R2100_2_arc_HW_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR8_R2100_2_arc_HW_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR8_R2100_2_arc_HW_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR8_R2100_2_arc_HW_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR8_R2100_2_arc_HW_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR8_R2100_2_arc_HW_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR8_R2100_2_arc_HW_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR8_R2100_2_arc_HW_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR8_R2100_2_arc_HW_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR8_R2100_2_arc_HW_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR8_R2100_2_arc_HW_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR8_R2100_2_arc_HW_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR90_R3100_Extra_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR90_R3100_Extra_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR90_R3100_Extra_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR90_R3100_Extra_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR90_R3100_Extra_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR90_R3100_Extra_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR90_R3100_Extra_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR90_R3100_Extra_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR90_R3100_Extra_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR90_R3100_Extra_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR90_R3100_Extra_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR90_R3100_Extra_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR90_R3100_Extra_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR90_R3100_Extra_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR90_R3100_Extra_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR90_R3100_Extra_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR90_R3100_Extra_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR90_R3100_Extra_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR90_R3100_Extra_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR90_R3100_Extra_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR90_R3100_Extra_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR90_R3100_Extra_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR90_R3100_Extra_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR90_R3100_Extra_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR90_R3100_Extra_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR90_R3100_Extra_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR90_R3100_Extra_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR90_R3100_Extra_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
+  <data name="KUKA_KR_20_R3100_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR_20_R3100_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR_20_R3100_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR_20_R3100_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR_20_R3100_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR_20_R3100_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR_20_R3100_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR_20_R3100_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR_20_R3100_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR_20_R3100_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR_20_R3100_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR_20_R3100_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR_20_R3100_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR_20_R3100_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR_20_R3100_CH_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR_20_R3100_CH_0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR_20_R3100_CH_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR_20_R3100_CH_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR_20_R3100_CH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR_20_R3100_CH_2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR_20_R3100_CH_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR_20_R3100_CH_3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR_20_R3100_CH_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR_20_R3100_CH_4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR_20_R3100_CH_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR_20_R3100_CH_5.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KUKA_KR_20_R3100_CH_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUKA_KR_20_R3100_CH_6.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+</root>
